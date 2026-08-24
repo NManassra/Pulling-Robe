@@ -1,0 +1,11 @@
+ENERGY_RANGE 80 120              # players start with a random energy between 80 and 120
+
+ENERGY_DECREASE_RATE 5 15       # each second, players lose between 5 and 15 energy while pulling
+
+REJOIN_TIME 3 7                 # after falling, a player will wait 3 to 7 seconds before rejoining
+
+WIN_THRESHOLD 500              # a team wins the round if their total pulling score reaches 500
+
+MAX_SCORE 3                    # the first team to win 3 rounds wins the entire game
+
+MAX_DURATION 180               # each round lasts a maximum of 180 seconds (3 minutes)
